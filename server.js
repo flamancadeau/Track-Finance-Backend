@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 // CORS configuration
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://track-finance-app.netlify.app/",
     credentials: true,
   })
 );
