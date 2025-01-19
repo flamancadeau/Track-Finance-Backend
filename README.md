@@ -1,64 +1,30 @@
-# Enhanced Transaction Management System
+Enhanced Transaction Management System - Backend
 
-## Project Overview
+# 📜 Project Overview
+This is the backend server for the Enhanced Transaction Management System. It provides RESTful API endpoints to manage:
 
-This project is a comprehensive transaction management system developed over the course of five days. It allows users to track their income and expenses across multiple accounts, set spending limits, categorize transactions, and visualize their financial data.
+- Transactions: Add, edit, delete, and view transactions (income/expense).
+- Accounts: Manage different accounts (Bank, Mobile Money, Cash).
+- Categories: Categorize and subcategorize transactions.
+- Budgets: Set budgets and monitor spending limits.
+- Reports: Generate financial reports based on user data.
 
-## Features
+## 🛠️ Technologies Used
 
-- Add, edit, and delete transactions
-- Track transactions across multiple accounts (Bank, Mobile Money, Cash)
-- Categorize transactions with categories and subcategories
-- Set and monitor spending limits with notifications for budget exceedance
-- Generate reports for specified date ranges
-- Visualize transaction data with charts and graphs
-- Responsive design for desktop
+- Node.js: JavaScript runtime for building scalable backend applications.
+- Express.js: Framework for building RESTful APIs.
+- MongoDB: NoSQL database to store transactions, user data, and other related information.
+- dotenv: Loads environment variables for better configuration management.
+- CORS: Middleware to handle Cross-Origin Resource Sharing for frontend-backend communication.
 
-## Project Timeline (5 Days)
+### 🔮 Future Improvements
 
-### Day 1: Account Management and Transaction Tracking
-- Extend database schema for multiple accounts
-- Update transaction model and UI for account selection
-- Implement transaction filtering by account
+- Advanced Report Generation: Allow users to filter reports based on categories or account types.
+- Notifications: Notify users about exceeded budgets or upcoming expenses.
 
-### Day 2: Report Generation and Budget Notifications
-- Create date range selector for report generation
-- Set up budget setting feature and notification system
-
-### Day 3: Category and Subcategory Management
-- Create models and CRUD operations for categories and subcategories
-- Design and implement UI for managing categories
-- Update transaction form to include category selection
-
-### Day 4: Linking Expenses and Visualization Enhancements
-- Implement expense linking with categories/subcategories
-- Integrate Chart.js for enhanced visualizations
-- Create pie charts for expense distribution and line charts for trends
-
-### Day 5: Integration, Testing, and Refinement
-- Integrate all new features with existing UI
-- Conduct thorough testing and bug fixing
-- Optimize performance and refactor code
-- Update documentation
-
-## Tech Stack
-
-- React js
-- node.js
-- Tailwind CSS
-- Axios for API calls
-- React-toastify for notifications
-- Chart.js for data visualization
-## Getting Started
-
+#### 🚀 Getting Started 
 1. Clone the repository
-2. Install dependencies with \`npm install\`
-3. Set up your environment variables (see \`.env.example\`)
-4. Start the development server with \`npm run dev\`
-5. Open \`http://localhost:3000\` in your browser
-
-
-
-
-
-
+2. Install dependencies
+3. Set up your environment variables
+4. Start the development server
+5. Open in your browser
